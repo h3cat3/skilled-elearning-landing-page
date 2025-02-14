@@ -6,8 +6,8 @@
     --Grey: #83869A;
     --White: #FFFFFF;
 
-    --Gradient-Pink: linear-gradient(to bottom, #F02AA6, #FF6F48);
-    --Gradient-Purple: linear-gradient(to bottom, #4851FF, #F02AA6);
+    --Gradient-Pink: linear-gradient(to top, #F02AA6, #FF6F48);
+    --Gradient-Purple: linear-gradient(to top, #4851FF, #F02AA6);
     --Gradient-purple-light: linear-gradient(to bottom, #4851FF, #F02AA6);
 
     --Spacing1800: 9rem;
@@ -76,17 +76,23 @@
     border-radius: 28px;
     padding: var(--Spacing150) var(--Spacing300);
     border: none;
+    width: 10.5rem;
 }
 .dark{
     background-color: var(--Blue900);
     color: var(--White);
 }
+.pink{
+    background: var(--Gradient-Pink);
+    color: var(--White);
+}
 * {
     margin: 0;
 }
-.content {
 
-   
+.content {
+    width: 100%;
+   font-family: 'Plus Jakarta Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,8 +108,28 @@
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     padding: var(--Spacing800) var(--Spacing250);
-    gap: var(--Spacing550);
-    color: var(var(--Blue900));
+    gap: var(--Spacing300);
+}
+.hero h1 {
+    color: var(--Blue900);
+}
+.hero p {
+    color: var(--Grey);
+}
+.hero img {
+    width: 100%;
+  
+    object-fit: fill;
+}
+main {
+    padding: var(--Spacing800) var(--Spacing250) var(--Spacing1000);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+main h2 {
+    padding: var(--Spacing400);
+    border-radius: 15px;
 }
