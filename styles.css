@@ -72,9 +72,18 @@
     line-height: 150%;
     letter-spacing: 0;
 }
+.btn {
+    border-radius: 28px;
+    padding: var(--Spacing150) var(--Spacing300);
+    border: none;
+}
+.dark{
+    background-color: var(--Blue900);
+    color: var(--White);
+}
 .content {
     margin: 0;
-    width: 99vw;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
