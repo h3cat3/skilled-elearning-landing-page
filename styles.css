@@ -1,0 +1,89 @@
+:root {
+    --Blue900: #13183F;
+    --Blue600: #666CA3;
+    --Pink600: #F74780;
+    --Pink300: #FFA7C3;
+    --Grey: #83869A;
+    --White: #FFFFFF;
+
+    --Gradient-Pink: linear-gradient(to bottom, #F02AA6, #FF6F48);
+    --Gradient-Purple: linear-gradient(to bottom, #4851FF, #F02AA6);
+    --Gradient-purple-light: linear-gradient(to bottom, #4851FF, #F02AA6);
+
+    --Spacing1800: 9rem;
+    --Spacing1600: 8rem;
+    --Spacing1000: 5rem;
+    --Spacing800: 4rem;
+    --Spacing700: 3.5rem;
+    --Spacing600: 3rem;
+    --Spacing550: 2.75rem;
+    --Spacing500: 2.5rem;
+    --Spacing400: 2rem;
+    --Spacing300: 1.5rem;
+    --Spacing250: 1.25rem;
+    --Spacing200: 1rem;
+    --Spacing150: 0.75rem;
+    --Spacing100: 0.5rem;
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url(/assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf),
+     url(/assets/Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+.text1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.text2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.text3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.text4 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.text5 {
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text6 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.text7 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.content {
+    margin: 0;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    padding: var(--Spacing300) var(--Spacing550);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
