@@ -81,8 +81,11 @@
     background-color: var(--Blue900);
     color: var(--White);
 }
-.content {
+* {
     margin: 0;
+}
+.content {
+
    
     display: flex;
     flex-direction: column;
@@ -95,4 +98,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--Spacing800) var(--Spacing250);
+    gap: var(--Spacing550);
+    color: var(var(--Blue900));
 }
