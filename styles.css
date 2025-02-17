@@ -7,23 +7,8 @@
     --White: #FFFFFF;
 
     --Gradient-Pink: linear-gradient(to top, #F02AA6, #FF6F48);
-    --Gradient-Purple: linear-gradient(to top, #4851FF, #F02AA6);
-    --Gradient-purple-light: linear-gradient(to bottom, #4851FF, #F02AA6);
-
-    --Spacing1800: 9rem;
-    --Spacing1600: 8rem;
-    --Spacing1000: 5rem;
-    --Spacing800: 4rem;
-    --Spacing700: 3.5rem;
-    --Spacing600: 3rem;
-    --Spacing550: 2.75rem;
-    --Spacing500: 2.5rem;
-    --Spacing400: 2rem;
-    --Spacing300: 1.5rem;
-    --Spacing250: 1.25rem;
-    --Spacing200: 1rem;
-    --Spacing150: 0.75rem;
-    --Spacing100: 0.5rem;
+    --Gradient-Purple: linear-gradient(to bottom, #4851FF, #F02AA6);
+    --Gradient-purple-light: linear-gradient(to top,#e77abe, #a4a8f5 );
 }
 @font-face {
     font-family: 'Plus Jakarta Sans';
@@ -74,7 +59,7 @@
 }
 .btn {
     border-radius: 28px;
-    padding: var(--Spacing150) var(--Spacing300);
+    padding: 16px 32px;
     border: none;
     width: 10.5rem;
 }
@@ -82,10 +67,33 @@
     background-color: var(--Blue900);
     color: var(--White);
 }
+.dark:hover {
+    background-color: var(--Blue600);
+}
 .pink{
     background: var(--Gradient-Pink);
     color: var(--White);
+    margin: 40px 0 48px;
 }
+.pink:hover {
+   opacity: 60%;
+}
+.purple {
+    background: var(--Gradient-Purple);
+    color: var(--White);
+}
+.purple:hover {
+   background: var(--Gradient-purple-light);
+}
+.no-btn {
+    color: var(--Pink600);
+    border: none;
+    background-color: var(--White);
+}
+.no-btn:hover {
+    color: var(--Pink300);
+}
+
 * {
     margin: 0;
 }
@@ -99,8 +107,8 @@
     align-items: center;
 }
 .nav{
-    padding: var(--Spacing300) var(--Spacing550);
-    width: 90%;
+    padding: 16px 20px;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,27 +117,51 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: var(--Spacing800) var(--Spacing250);
-    gap: var(--Spacing300);
+    padding: 64px 20px;
+    
 }
 .hero h1 {
     color: var(--Blue900);
+    margin-bottom: 20px;
 }
 .hero p {
     color: var(--Grey);
 }
 .hero img {
     width: 100%;
-  
     object-fit: fill;
 }
 main {
-    padding: var(--Spacing800) var(--Spacing250) var(--Spacing1000);
+    padding: 64px 20px 80px;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    gap: 32px;
 }
 main h2 {
-    padding: var(--Spacing400);
+    background: var(--Gradient-Pink);
+    color: var(--White);
+    padding: 32px;
     border-radius: 15px;
+    
+}
+.card {
+    padding-left: 32px;
+}
+.card h3{ 
+    color: var(--Blue900);
+padding: 32px 0 24px;
+}
+.card p{
+    color: var(--Grey);
+    padding-bottom: 24px;
+}
+
+footer {
+    background-color: var(--Blue900);
+    width: 95%;
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
