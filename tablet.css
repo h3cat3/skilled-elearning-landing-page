@@ -4,6 +4,7 @@
     }
     .nav {
         padding: 24px 44px;
+        width: 90%;
     }
     .hero{
         display: flex;
@@ -14,9 +15,10 @@
         width: 250%;
         position: relative;
         top: -240px;
-        left: -60px;
+        left: -90px;
     }
     main {
+        margin-top: -250px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
