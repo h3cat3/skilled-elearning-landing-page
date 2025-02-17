@@ -99,6 +99,7 @@
 }
 
 .content {
+    overflow: hidden;
     width: 100%;
    font-family: 'Plus Jakarta Sans', sans-serif;
     display: flex;

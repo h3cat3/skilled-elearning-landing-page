@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link href="styles.css" rel="stylesheet">
   <link href="tablet.css" rel="stylesheet" media="(min-width: 768px)">
-
+  <link href="widescreen.css" rel="stylesheet" media="(min-width: 900px)">
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 <body>
@@ -28,6 +28,7 @@
         <button class="btn text7 pink">Get Started</button>
       </div>
         <picture>
+          <source media="(min-width: 900px)" srcset="assets/image-hero-desktop.webp" alt="">
           <source media="(min-width: 768px)" srcset="assets/image-hero-tablet.webp" alt="">
           <img src="assets/image-hero-mobile.webp" alt="">
         </picture>
@@ -35,7 +36,7 @@
     </div>
   </header>
   <main>
-    
+
     <h2 class="text3">Check out our most popular courses!</h2>
     
     <div class="card">
