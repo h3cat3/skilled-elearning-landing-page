@@ -68,7 +68,7 @@
     color: var(--White);
 }
 .dark:hover {
-    background-color: var(--Blue600);
+    opacity: 80%;
 }
 .pink{
     background: var(--Gradient-Pink);
