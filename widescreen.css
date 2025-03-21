@@ -11,21 +11,21 @@
         flex-direction: row;
         padding: 64px 80px;
         align-items: center;
-        top: -400px;
+        
     }
    
     .hero img{
-        width: 150%;
+        width: 120%;
         position: relative;
-       
-        left: 0px;
+        top: -150px;
+       left: 50px;
     }
     main {
         margin-top: -270px;
         padding: 64px 44px 144px;
         gap: 32px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     footer{
         padding: 24px 80px;

@@ -106,6 +106,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, #FFFFFF, #F0F1FF);
 }
 .nav{
     padding: 16px 20px;
@@ -147,6 +148,8 @@ main h2 {
     
 }
 .card {
+    background: linear-gradient(0deg, #FFFFFF, #F0F1FF);
+    border-radius: 15px;
     padding-left: 32px;
 }
 .card h3{ 
